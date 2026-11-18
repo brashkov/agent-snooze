@@ -6,3 +6,4 @@ RESEARCH.md
 .tmp-cmux-test*/
 *.tgz
 .npmrc
+.design/

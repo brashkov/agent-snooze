@@ -1,4 +1,8 @@
-# agent-snooze
+<p align="center">
+  <img src="assets/logo.png" alt="agent-snooze logo" width="140">
+</p>
+
+<h1 align="center">agent-snooze</h1>
 
 **Your AI agents never close. Your RAM pays for it.**
 
