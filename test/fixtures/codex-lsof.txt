@@ -1,0 +1,12 @@
+p702
+fcwd
+n/tmp/proj
+f48
+n/HOME/.codex/sessions/2026/11/18/rollout-2026-11-18T14-04-18-0a0b0c0d-1111-7222-8333-444455556666.jsonl
+f43
+n/HOME/.codex/thread-writer-locks/0a0b0c0d-1111-7222-8333-444455556666.lock
+p801
+f20
+n/HOME/.codex/state_5.sqlite
+f30
+n/HOME/.codex/sessions/2026/06/07/rollout-2026-06-07T16-35-35-0f0e0d0c-9999-7888-8777-666655554444.jsonl.zst

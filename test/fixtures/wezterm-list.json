@@ -1,0 +1,3 @@
+[{"window_id":0,"tab_id":0,"pane_id":0,"title":"zsh","cwd":"file:///tmp","tty_name":"/dev/ttys057"},
+ {"window_id":0,"tab_id":1,"pane_id":3,"title":"claude","cwd":"file:///tmp/x","tty_name":"/dev/ttys058"},
+ {"window_id":0,"tab_id":2,"pane_id":4,"title":"no tty","cwd":"file:///tmp/y"}]

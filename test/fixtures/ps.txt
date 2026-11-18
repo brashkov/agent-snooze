@@ -1,0 +1,16 @@
+    1     0   0.0   1000 ??       /sbin/launchd
+  100     1   0.0   5000 ??       /Applications/Term.app/Contents/MacOS/term
+  200   100   0.0   3000 ttys001  -/bin/zsh
+  201   200   0.3  45000 ttys001  claude
+  202   201   0.0   2000 ttys001  /bin/zsh
+  300   100   0.0   3000 ttys002  -/bin/zsh
+  301   300   0.1  40000 ttys002  /Users/me/.local/bin/claude
+  302   301   0.2  20000 ttys002  /usr/local/bin/node
+  400   100   0.0   3000 ttys003  /bin/zsh
+  401   400   7.5  90000 ttys003  claude
+  500   100   0.0   3000 ttys004  /bin/zsh
+  501   500   0.0  50000 ttys004  claude
+  510   501   0.0   3000 ttys004  /bin/bash
+  511   510   0.0   3000 ttys004  node
+  600   100   0.0   3000 pts/7    bash
+  601   600   0.0  30000 pts/7    claude

@@ -1,0 +1,1 @@
+{"address":"t2","argv":["/bin/zsh","-l"],"cwd":"/w","foreground":{"argv":["claude"],"cwd":"/w","name":"2.1.322","pid":201},"labels":{"where":"Space / Tab A"},"pid":200,"state":"live","status":{"app":"claude-code","state":"done"}}

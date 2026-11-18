@@ -1,0 +1,5 @@
+{"hidden_finished":0,"machines":[{"name":"remote","state":"connected"}],"terminals":[
+ {"address":"t2","agent":"claude-code","cwd":"/w","state":"live","status":"done","where":"Space / Tab A"},
+ {"address":"t3","agent":"zsh","cwd":"/w","state":"live","where":"Space / Tab B"},
+ {"address":"t4","agent":"zsh","cwd":"/w","state":"finished","where":"Space / Old"},
+ {"address":"remote/t1","agent":"claude-code","cwd":"/w","state":"live","where":"Remote / X"}]}

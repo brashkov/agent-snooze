@@ -1,0 +1,3 @@
+%0300/dev/ttys002claudework:0.0
+%1600/dev/pts/7claudelinux:1.2
+%2700/dev/ttys009zshspare:0.0

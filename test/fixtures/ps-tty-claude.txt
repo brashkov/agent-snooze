@@ -1,0 +1,3 @@
+  Ss   -zsh
+  S+   claude
+  S+   node

@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+PROGRESS.md
+RESEARCH.md
+.tmp-cmux-test*/
+*.tgz
+.npmrc

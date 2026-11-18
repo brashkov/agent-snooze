@@ -1,0 +1,10 @@
+    1     0   0.0   1000 ??       /sbin/launchd
+  100     1   0.0   5000 ??       /Applications/Term.app/Contents/MacOS/term
+  700   100   0.0   3000 ttys010  -/bin/zsh
+  701   700   0.0  27000 ttys010  node
+  702   701   0.1 110000 ttys010  /usr/local/lib/node_modules/@openai/codex/node_modules/@openai/codex-darwin-arm64/vendor/aarch64-apple-darwin/bin/codex
+  703   702   0.0  40000 ttys010  /Applications/Some.app/node_repl
+  800   100   0.0   3000 ttys011  /bin/zsh
+  801   800   0.0  90000 ttys011  /opt/homebrew/bin/codex
+  802   801   0.0  80000 ttys011  /opt/homebrew/bin/codex
+  900     1   0.0  70000 ??       /Applications/ChatGPT.app/Contents/Resources/codex

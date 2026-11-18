@@ -1,0 +1,3 @@
+{"windows":[{"ref":"window:1","workspaces":[{"ref":"workspace:1","title":"proj","panes":[{"ref":"pane:1","surfaces":[
+ {"ref":"surface:1","title":"my tab","tty":"/dev/ttys014","type":"terminal"},
+ {"ref":"surface:2","title":"browser","type":"browser"}]}]}]}]}

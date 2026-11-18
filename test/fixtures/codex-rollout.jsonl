@@ -1,0 +1,6 @@
+{"timestamp":"2026-11-12T09:00:00.000Z","ordinal":0,"type":"session_meta","payload":{"session_id":"0a0b0c0d-1111-7222-8333-444455556666","id":"0a0b0c0d-1111-7222-8333-444455556666","timestamp":"2026-11-12T08:59:59.000Z","cwd":"/tmp/proj","originator":"codex-tui","source":"cli"}}
+{"timestamp":"2026-11-12T09:00:01.000Z","ordinal":1,"type":"event_msg","payload":{"type":"task_started","turn_id":"t1"}}
+{"timestamp":"2026-11-12T09:00:02.000Z","ordinal":2,"type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"say hi"}]}}
+{"timestamp":"2026-11-12T09:00:05.000Z","ordinal":3,"type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"hi"}]}}
+{"timestamp":"2026-11-12T09:00:06.000Z","ordinal":4,"type":"event_msg","payload":{"type":"task_complete","turn_id":"t1","last_agent_message":"hi"}}
+{"timestamp":"2026-11-12T09:00:0

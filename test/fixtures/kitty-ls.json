@@ -1,0 +1,3 @@
+[{"id":1,"tabs":[{"id":1,"title":"t","windows":[
+ {"id":1,"pid":300,"title":"zsh","foreground_processes":[{"pid":300,"cmdline":["-zsh"]}]},
+ {"id":2,"pid":310,"title":"claude","foreground_processes":[{"pid":310,"cmdline":["-zsh"]},{"pid":311,"cmdline":["claude","--resume","x"]}]}]}]}]

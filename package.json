@@ -1,0 +1,45 @@
+{
+  "name": "agent-snooze",
+  "version": "0.1.0",
+  "description": "Close idle Claude Code and Codex CLI sessions to free RAM, and park each terminal tab on a one-key resume of the same conversation.",
+  "type": "module",
+  "bin": {
+    "agent-snooze": "bin/agent-snooze.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "tmux",
+    "iterm2",
+    "kitty",
+    "wezterm",
+    "terminal",
+    "memory",
+    "cli",
+    "ai-agents"
+  ],
+  "author": "Boris Rashkov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brashkov/agent-snooze.git"
+  },
+  "homepage": "https://github.com/brashkov/agent-snooze#readme",
+  "bugs": {
+    "url": "https://github.com/brashkov/agent-snooze/issues"
+  },
+  "private": true
+}
