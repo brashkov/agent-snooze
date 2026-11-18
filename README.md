@@ -1,20 +1,22 @@
 # agent-snooze
 
-Close idle Claude Code and Codex CLI sessions to free RAM, and leave each terminal tab on a 💤 prompt. Press Enter and the same conversation comes back.
+**Your AI agents never close. Your RAM pays for it.**
 
-```
-$ agent-snooze
-DRY WOULD-SNOOZE claude pid 48121 3f9c2a1e [tmux %4 "api:0.1"] idle 4.2d mem 190MB park=tmux
-DRY WOULD-SNOOZE codex pid 51210 7d3e9b02 [iterm2 /dev/ttys012 "web"] idle 6.0d mem 175MB park=iterm2
-DRY SKIP claude pid 50733 9a01bc7d [kitty 3 "docs"] idle 0.1d: active (idle 0.1d < 3d)
-DRY dry run: 2 of 3 would be snoozed (add --apply)
-```
+I had 51 Claude Code sessions open across my terminals.
+30 of them hadn't been touched in 6 days.
+Together they were sitting on 6 GB of RAM, doing nothing.
 
-## The problem
+Closing them felt risky: what if I needed that conversation tomorrow?
 
-AI coding agents are long-lived terminal programs. You open one per task, move on, and the old tabs keep running. Each idle Claude Code or Codex session holds roughly 100 to 250 MB of RAM. One real machine had **51 forgotten sessions using about 6 GB**.
+So I built agent-snooze. One command puts idle sessions to sleep.
+The tab stays open, showing a 💤. Press Enter, and you're back
+in the same conversation, right where you left off.
 
-Closing them by hand means hunting for the right tabs and remembering each session id to resume later. agent-snooze does both for you, and keeps the tab where it was.
+- 💤 **Idle 3+ days? Snoozed.** Busy? Never touched.
+- 🔁 **Enter brings back the exact same conversation.** Nothing is deleted.
+- 🪶 **A sleeping tab costs ~1 MB** instead of ~200 MB.
+
+Works with **Claude Code** and **Codex CLI**, in tmux, iTerm2, Terminal.app, Kitty, WezTerm and Herdr.
 
 ## Quick start
 
@@ -44,6 +46,17 @@ agent-snooze wake
 You can try it without installing (`npx agent-snooze`), but install it globally before `--apply`: sleeping tabs call agent-snooze back later, and the npx cache can be cleaned by then. The tool warns you about this.
 
 ## How it works
+
+A dry run (the default) shows what would happen:
+
+```
+$ agent-snooze
+DRY WOULD-SNOOZE claude pid 48121 3f9c2a1e [tmux %4 "api:0.1"] idle 4.2d mem 190MB park=tmux
+DRY WOULD-SNOOZE codex pid 51210 7d3e9b02 [iterm2 /dev/ttys012 "web"] idle 6.0d mem 175MB park=iterm2
+DRY SKIP claude pid 50733 9a01bc7d [kitty 3 "docs"] idle 0.1d: active (idle 0.1d < 3d)
+DRY dry run: 2 of 3 would be snoozed (add --apply)
+```
+
 
 ```
  find sessions          check idle             skip busy
